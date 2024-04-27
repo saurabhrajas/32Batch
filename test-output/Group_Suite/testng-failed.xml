@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group_Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GroupTest(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <include name="Retesting"/>
+        <include name="Regreesion"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.LogInPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="closeBrowser"/>
+          <include name="verifyURLofApplicationTest"/>
+        </methods>
+      </class> <!-- testCases.LogInPageTest -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [Group_Suite] -->

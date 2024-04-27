@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-23T12:11:43 IST" name="Default suite" finished-at="2024-04-23T12:12:06 IST" duration-ms="23202">
+    <groups>
+      <group name="Sanity">
+        <method signature="LogInPageTest.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" name="verifyTitleOfApplicationTest" class="testCases.LogInPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Retesting">
+        <method signature="LogInPageTest.LoginToApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" name="LoginToApplicationTest" class="testCases.LogInPageTest"/>
+        <method signature="LogInPageTest.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" name="verifyTitleOfApplicationTest" class="testCases.LogInPageTest"/>
+      </group> <!-- Retesting -->
+      <group name="Regreesion">
+        <method signature="LogInPageTest.LoginToApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" name="LoginToApplicationTest" class="testCases.LogInPageTest"/>
+        <method signature="LogInPageTest.verifyURLofApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" name="verifyURLofApplicationTest" class="testCases.LogInPageTest"/>
+      </group> <!-- Regreesion -->
+    </groups>
+    <test started-at="2024-04-23T12:11:43 IST" name="Default test" finished-at="2024-04-23T12:12:06 IST" duration-ms="23202">
+      <class name="testCases.LogInPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:11:43 IST" name="setup" finished-at="2024-04-23T12:11:54 IST" duration-ms="10384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LoginToApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:11:54 IST" name="LoginToApplicationTest" finished-at="2024-04-23T12:11:56 IST" duration-ms="1935" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginToApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:11:56 IST" name="closeBrowser" finished-at="2024-04-23T12:11:57 IST" duration-ms="1179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginToApplicationTest status=SUCCESS method=LogInPageTest.LoginToApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:11:57 IST" name="setup" finished-at="2024-04-23T12:12:01 IST" duration-ms="4724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTitleOfApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:12:01 IST" name="verifyTitleOfApplicationTest" finished-at="2024-04-23T12:12:02 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:12:02 IST" name="closeBrowser" finished-at="2024-04-23T12:12:02 IST" duration-ms="479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTitleOfApplicationTest status=SUCCESS method=LogInPageTest.verifyTitleOfApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:12:02 IST" name="setup" finished-at="2024-04-23T12:12:06 IST" duration-ms="3982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyURLofApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:12:06 IST" name="verifyURLofApplicationTest" finished-at="2024-04-23T12:12:06 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyURLofApplicationTest -->
+        <test-method is-config="true" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testCases.LogInPageTest@379614be]" started-at="2024-04-23T12:12:06 IST" name="closeBrowser" finished-at="2024-04-23T12:12:06 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyURLofApplicationTest status=SUCCESS method=LogInPageTest.verifyURLofApplicationTest()[pri:0, instance:testCases.LogInPageTest@379614be] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testCases.LogInPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
